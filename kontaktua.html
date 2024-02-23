@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktua - Tolosako Saskibaloiko Kirol Elkartea</title>
+    <link rel="stylesheet" href="./css/kontaktua.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <img src="./img/club_patrocinador_sin_fondo.png" alt="Logo del club" />
+        </div>
+
+        <nav>
+            <input type="checkbox" id="nav" class="hidden" />
+            <label for="nav" class="nav-open"
+                style="display: inline-block; position: relative"><i></i><i></i><i></i></label>
+            <div class="nav-container">
+                <ul>
+                    <li><a href="index.html">hasiera</a></li>
+                    <li><a href="news.html">berriak</a></li>
+                    <li class="has-submenu">
+                        <a href="#">taldeak</a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="#">partiduak</a></li>
+                                <li><a href="#">estatistikak</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">kluba</a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="historia.html">historia</a></li>
+                                <li><a href="organigrama.html">organigrama</a></li>
+                                <li><a href="#">instalazioak</a></li>
+                                <li><a href="kontaktua.html">kontaktua</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">babesleak</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="login-icon">
+            <a href="login.html"><img src="./img/login-icon.png" alt="Iniciar sesión" /></a>
+        </div>
+    </header>
+    <div class="header-orrialde-tituloa">
+        <h1 style="font-family:monospace; position: relative;  z-index: 1;">Kontaktua</h1>
+    </div>
+    <main>
+        <div class="parent">
+            <div class="div1">
+                <div class="kontaktuaInformazioa">
+
+                    <h1>BKL Beasain</h1>
+                    <br />
+                    <h2>Kontaktua Orokorra</h2>
+                    <br />
+                    <p>Helbidea: Antzizar Kiroldegia, 20200 Beasain (Gipuzkoa)</p>
+                    <p>Telefonoa: +34 603 489 249</p>
+                    <p>Emaila: <a href="mailto:info@bk.eus">info@bk.eus</a></p>
+                    <br />
+                    <h2>Datu Pertsonalen Babesa Politika</h2>
+                    <br />
+                    <p>Pertsonen Datuen Babesari buruzko araudiekin eta uztailaren 11ko 34/2002 Legearekin bat etorriz,
+                        B.K.L Beasainek jakinarazten dizuzue zuk ematen dizkizuen datu pertsonalak bokazioz bidalita,
+                        automatizatu gabeko fitxategian sartuko direla, B.K.L Beasainek arduratzen dena eta Datuen
+                        Babesaren Nazioarteko Agentzian erregistratua dago.</p>
+                    <br />
+
+                    <p>Erabiltzaileek, uneoro, saskieskola@bklsaskibaloia.com helbide elektronikoan erreklamazio,
+                        zuzentze, ezeztapen eta aurkako eskubideak jarri ahal izango dituzte.</p> <br />
+
+                    <p>Datu horiek gure webgunean jasotako kontsulta eta iradokizunak kudeatzeko helburuarekin erabiliko
+                        dira. Datu horiek emanez, zehazki adierazten duzunaren arabera, BKL Beasainek zure datu
+                        pertsonalak bildu eta tratatuko dituela onartzen duzue. BKL Beasainek zeregin horiek ez ditu
+                        baimenik gabe hirugarrengaz partekatu, saltzeko edo emateko konpromisoa hartzen du.</p> <br />
+
+                    <h2>NUMENTAL CONJUNTOA</h2> <br />
+
+                    <p>HASIERA ALDIZKARI EKIPOAK KLUBA ESPONTSOREAK</p>
+                </div>
+            </div>
+            <div class="div2">
+                <section class="news-container">
+                    <div class="content">
+                        <div class="content-text">
+                            <div class="container">
+                                <form id="contact" action="" method="post">
+                                    <h2>Kontaktatu horain</h2>
+                                    <h4>Jarri gurekin kontaktuan edozein galdera baldin baduzue</h4>
+                                    <fieldset>
+                                        <input placeholder="Izena" type="text" tabindex="1" required autofocus>
+                                    </fieldset>
+                                    <fieldset>
+                                        <input placeholder="Abizena" type="text" tabindex="1" required autofocus>
+                                    </fieldset>
+                                    <fieldset>
+                                        <input placeholder="Zure emaila" type="email" tabindex="2" required>
+                                    </fieldset>
+                                    <fieldset>
+                                        <input placeholder="Telefono zenbakia" type="tel" tabindex="3" required>
+                                    </fieldset>
+                                    <fieldset>
+                                        <h5>Jokalaria zara?</h5>
+                                        <input type="radio" id="jokalaria" name="jokalaria" value="jokalaria">
+                                        <label for="jokalaria">Bai</label>
+                                        <input type="radio" id="nojokalaria" name="jokalaria" value="ezjokalaria">
+                                        <label for="ezjokalaria">Ez</label>
+                                    </fieldset>
+                                    <fieldset>
+                                        <textarea placeholder="Zure mezua idatzi...." tabindex="5" required></textarea>
+                                    </fieldset>
+                                    <fieldset>
+                                        <button name="submit" type="submit" id="contact-submit"
+                                            data-submit="...Sending">Bidali</button>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; TSKE Tolosa </p>
+    </footer>
+</body>
+
+</html>

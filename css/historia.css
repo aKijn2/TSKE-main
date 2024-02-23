@@ -1,0 +1,229 @@
+/* Estilos generales */
+body {
+  overflow: auto;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #32a983;
+  color: #fff;
+  padding: 5px;
+  text-align: right;
+}
+
+.social-media {
+  margin-right: 20px;
+}
+
+.social-icon {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: #585858;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.main-header a {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.main-header a:hover {
+  color: #32a983;
+}
+
+.logo img {
+  max-width: 200px;
+  max-height: 120px;
+  margin-right: 10px;
+}
+
+nav ul {
+  text-align: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icon img {
+  width: 20px;
+  height: auto;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #0303039d;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.submenu a {
+  padding: 10px 15px;
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.submenu a:hover {
+  background-color: #ddd;
+}
+
+.has-submenu:hover .submenu,
+.submenu:hover {
+  display: block;
+}
+
+.login-icon {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.login-icon img {
+  width: 30px;
+  height: auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.header-orrialde-tituloa {
+  background-image: url("https://www.gisaski.eus/site/contenido/media/header-page.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.header-orrialde-tituloa:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.news-item img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.news-item h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.news-item p {
+  font-size: 14px;
+  color: #666;
+  flex-grow: 1;
+}
+
+.read-more-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #32a983;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+  margin-top: auto;
+}
+
+.read-more-btn:hover {
+  background-color: #1e7b5a;
+}
+
+/*Historia zaharra irudiaren (content-image) css tamaina txikia, zentratuta eta aldakorra.*/
+.content-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.historia-irudia {
+  width: 29em;
+}
+
+main {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 889px) {
+  body {
+    overflow: scroll;
+  }
+
+  main {
+    height: 50em;
+  }
+
+  .news-container {
+    margin-bottom: 10em;
+  }
+}

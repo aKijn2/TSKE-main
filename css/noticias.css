@@ -1,0 +1,105 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main-header {
+  background-color: #585858;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.main-header a {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.main-header a:hover {
+  color: #32a983;
+}
+
+.logo img {
+  max-width: 200px;
+  max-height: 120px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #0303039d;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.submenu a {
+  padding: 10px 15px;
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.submenu a:hover {
+  background-color: #ddd;
+}
+
+.has-submenu:hover .submenu,
+.submenu:hover {
+  display: block;
+}
+
+.login-icon {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.login-icon img {
+  width: 30px;
+  height: auto;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.news {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.news img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.news-content {
+  margin-top: 20px;
+}

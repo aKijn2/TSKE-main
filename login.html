@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIOA HASI - Tolosako Saskibaloiko Kirol Elkartea</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="logo">
+          <img src="./img/club_patrocinador_sin_fondo.png" alt="Logo del club" />
+        </div>
+    
+        <nav>
+          <input type="checkbox" id="nav" class="hidden" />
+          <label for="nav" class="nav-open" style="display: inline-block; position: relative"><i></i><i></i><i></i></label>
+          <div class="nav-container">
+            <ul>
+              <li><a href="index.html">hasiera</a></li>
+              <li><a href="news.html">berriak</a></li>
+              <li class="has-submenu">
+                <a href="#">taldeak</a>
+                <div class="submenu">
+                  <ul>
+                    <li><a href="#">partiduak</a></li>
+                    <li><a href="#">estatistikak</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="has-submenu">
+                <a href="#">kluba</a>
+                <div class="submenu">
+                  <ul>
+                    <li><a href="historia.html">historia</a></li>
+                    <li><a href="organigrama.html">organigrama</a></li>
+                    <li><a href="#">instalazioak</a></li>
+                    <li><a href="kontaktua.html">kontaktua</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">babesleak</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="login-icon">
+          <a href="login.html"><img src="./img/login-icon.png" alt="Iniciar sesión" /></a>
+        </div>
+      </header>
+    <div class="header-orrialde-tituloa">
+        <h1 style="font-family:monospace; position: relative;  z-index: 1;">Saioa hasi</h1>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <form class="login-form" action="procesar_login.php" method="post">
+            <h2>ERABILTZAILEENTZAKO SARRERA</h2>
+            <input type="text" name="username" placeholder="Erabiltzailea" required>
+            <br>
+            <input type="password" name="password" placeholder="Pasahitza" required>
+            <br>
+            <input type="submit" value="Sesioa Hasi">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 TSKE Tolosa</p>
+    </footer>
+</body>
+
+</html>
